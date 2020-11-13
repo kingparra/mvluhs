@@ -1,0 +1,12 @@
+---
+name: mvluhs
+
+dependencies:
+  - base >= 4.7 && < 5
+
+executables:
+  mvluhs-exe:
+    main: Main.hs
+    source-dirs: app
+    ghc-options: [-threaded, -rtsopts, -with-rtsopts=-N]
+    dependencies: directory
