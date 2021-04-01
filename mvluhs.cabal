@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f6b5deafd7b6a607ee433118b1ff9d05799fcb6f4de35d0be995c405ecf9ac14
+-- hash: 5534ccebeece4ceb83c6f246d9b15258aedab4bee0e8a80828a75eef9c89cfbf
 
 name:           mvluhs
 version:        0.0.0
@@ -20,4 +20,5 @@ executable mvluhs-exe
   build-depends:
       base >=4.7 && <5
     , directory
+    , filepath
   default-language: Haskell2010
